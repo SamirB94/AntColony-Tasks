@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(92, 92, 92);
+	background: linear-gradient(90deg, rgba(92, 92, 92, 1) 24%, rgba(215, 206, 206, 1) 76%);
+}
+
+.header {
+	position: absolute;
+	top: 10px;
+	left: 180px;
+	font-size: 2.5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 900s;
+	background: linear-gradient(
+		90deg,
+		rgba(0, 125, 255, 1) 0%,
+		rgba(93, 205, 67, 1) 33%,
+		rgba(93, 205, 67, 1) 68%,
+		rgba(232, 11, 11, 1) 100%
+	);
+	color: #3b3b3b;
+}
+
+h2 {
+	position: relative;
+	top: 200px;
+	left: 400px;
+}
+
+.editSegment {
+	position: relative;
+	top: 200px;
+	left: 400px;
+	width: 550px;
+}
+
+.lof {
+	position: relative;
+	top: 150px;
+	left: 370px;
+}
+
+.lofsegment {
+	position: relative;
+	top: 150px;
+	left: 370px;
+	width: 600px;
+}
+
+.addSegment {
+	position: relative;
+	top: 200px;
+	left: 400px;
+	width: 550px;
+}
+
+p {
+	color: red;
+}
+
+.backBtn {
+	position: relative;
+	bottom: 35px;
+	width: 88px;
+}
