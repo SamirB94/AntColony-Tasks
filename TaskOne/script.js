@@ -14,10 +14,6 @@ const func = (obj, path) => {
 			throw new SyntaxError(
 				'Invalid parameters, parameters must be value of Object(obj: {obj1:""}) and String("string.string")'
 			);
-		} else {
-			throw new SyntaxError(
-				'Invalid parameters, parameters must be value of Object(obj: {obj1:""}) and String("string.string")'
-			);
 		}
 	}
 };
