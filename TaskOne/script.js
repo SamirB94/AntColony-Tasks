@@ -1,11 +1,5 @@
 const func = (obj, path) => {
-	const objCheck = typeof obj === 'object' && typeof obj === 'undefined';
-	const pathCheck = typeof path === 'string' && typeof path === 'undefined';
-
 	try {
-		if (!objCheck && !pathCheck) {
-		}
-
 		const lowerCase = path.toLowerCase();
 		const splittedPath = lowerCase.split('.');
 
