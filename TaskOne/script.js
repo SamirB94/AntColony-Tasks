@@ -10,11 +10,9 @@ const func = (obj, path) => {
 
 		return result;
 	} catch (err) {
-		if (err instanceof ReferenceError) {
-			throw new SyntaxError(
-				'Invalid parameters, parameters must be value of Object(obj: {obj1:""}) and String("string.string")'
-			);
-		}
+		throw new SyntaxError(
+			'Invalid parameters, parameters must be value of Object(obj: {obj1:""}) and String("string.string")'
+		);
 	}
 };
 const paramOne = { prop: { prop2: 'Apple', prop3: 'Orange' } };
